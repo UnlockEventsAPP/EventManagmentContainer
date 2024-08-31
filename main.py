@@ -1,13 +1,18 @@
 from fastapi import FastAPI
+from routers import events, register  # Importamos los routers de eventos y registros
+from database import create_tables
 
 app = FastAPI()
 
+@app.on_event("startup")
+def on_startup():
+    create_tables()
+
+app.include_router(events.router, prefix="/api/events", tags=["Events"])
+app.include_router(register.router, prefix="/api/registers", tags=["Registers"])
 
 @app.get("/")
-async def root():
-    return {"message": "Hello World"}
+def read_root():
+    return {"message": "Welcome to the API"}
 
 
-@app.get("/hello/{name}")
-async def say_hello(name: str):
-    return {"message": f"Hello {name}"}

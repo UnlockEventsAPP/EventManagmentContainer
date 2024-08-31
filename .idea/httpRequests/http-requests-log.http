@@ -1,0 +1,210 @@
+DELETE http://localhost:8000/api/registers/registros/1
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-30T201237.200.json
+
+###
+
+PUT http://localhost:8000/api/registers/registros/1
+Content-Type: application/json
+Content-Length: 112
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id_usuario": 3,
+  "id_evento": 2,
+  "fecha_registro": "2024-09-02T12:00:00",
+  "estado_pago": "Pendiente"
+}
+
+<> 2024-08-30T201142.200.json
+
+###
+
+GET http://localhost:8000/api/registers/registros/1
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-30T201125.200.json
+
+###
+
+GET http://localhost:8000/api/registers/registros/
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-30T201054.200.json
+
+###
+
+POST http://localhost:8000/api/registers/registros/
+Content-Type: application/json
+Content-Length: 109
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id_usuario": 3,
+  "id_evento": 2,
+  "fecha_registro": "2024-09-01T12:00:00",
+  "estado_pago": "Pagado"
+}
+
+<> 2024-08-30T200840.200.json
+
+###
+
+POST http://localhost:8000/api/events/eventos/
+Content-Type: application/json
+Content-Length: 150
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "nombre": "Conferencia Internacional",
+  "aforo_evento": 500,
+  "estado": "Activo",
+  "ciudad": "Bogotá",
+  "fecha_hora": "2024-09-15T10:00:00"
+}
+
+<> 2024-08-30T200738.200.json
+
+###
+
+DELETE http://localhost:8000/api/events/eventos/1
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-30T200724.200.json
+
+###
+
+PUT http://localhost:8000/api/events/eventos/1
+Content-Type: application/json
+Content-Length: 147
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "nombre": "Evento Actualizado",
+  "aforo_evento": 300,
+  "estado": "Confirmado",
+  "ciudad": "Bogotá",
+  "fecha_hora": "2024-09-01T10:00:00"
+}
+
+<> 2024-08-30T200712.200.json
+
+###
+
+GET http://localhost:8000/api/events/eventos/
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-30T200628.200.json
+
+###
+
+GET http://localhost:8000/api/events/eventos/1
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-08-30T200442.200.json
+
+###
+
+POST http://localhost:8000/api/events/eventos/
+Content-Type: application/json
+Content-Length: 150
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "nombre": "Conferencia Internacional",
+  "aforo_evento": 500,
+  "estado": "Activo",
+  "ciudad": "Bogotá",
+  "fecha_hora": "2024-09-15T10:00:00"
+}
+
+<> 2024-08-30T200417.200.json
+
+###
+
+POST http://localhost:8000/api/events/eventos/
+Content-Type: application/json
+Content-Length: 143
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "nombre": "Conferencia Internacional",
+  "aforo": 500,
+  "estado": "Activo",
+  "ciudad": "Bogotá",
+  "fecha_hora": "2024-09-15T10:00:00"
+}
+
+<> 2024-08-30T200237.500.txt
+
+###
+
+POST http://localhost:8000/api/events/eventos/
+Content-Type: application/json
+Content-Length: 143
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "nombre": "Conferencia Internacional",
+  "aforo": 500,
+  "estado": "Activo",
+  "ciudad": "Bogotá",
+  "fecha_hora": "2024-09-15T10:00:00"
+}
+
+<> 2024-08-30T200212.500.txt
+
+###
+
+POST http://localhost:8000/api/events/eventos/
+Content-Type: application/json
+Content-Length: 143
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "nombre": "Conferencia Internacional",
+  "aforo": 500,
+  "estado": "Activo",
+  "ciudad": "Bogotá",
+  "fecha_hora": "2024-09-15T10:00:00"
+}
+
+<> 2024-08-30T200149.500.txt
+
+###
+
