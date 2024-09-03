@@ -1,0 +1,10 @@
+[
+  {
+    "nombre": "Hotel La Playa",
+    "direccion": "123 Avenida del Sol",
+    "ciudad": "Cartagena",
+    "aforo": 200,
+    "convenio": "Platinum",
+    "id": 2
+  }
+]

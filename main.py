@@ -8,8 +8,8 @@ app = FastAPI()
 def on_startup():
     create_tables()
 
-app.include_router(events.router, prefix="/api/events", tags=["Events"])
-app.include_router(register.router, prefix="/api/registers", tags=["Registers"])
+app.include_router(events.router, prefix="/events", tags=["Events"])
+app.include_router(register.router, prefix="/events", tags=["Registers"])
 
 @app.get("/")
 def read_root():

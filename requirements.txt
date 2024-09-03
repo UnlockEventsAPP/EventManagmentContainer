@@ -4,3 +4,4 @@ SQLAlchemy
 pydantic
 pymysql
 python-dotenv
+cryptography

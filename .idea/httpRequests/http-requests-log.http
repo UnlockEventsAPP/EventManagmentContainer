@@ -1,3 +1,49 @@
+GET http://localhost:8004/accommodations/alojamientos/
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-09-02T160651.200.json
+
+###
+
+POST http://localhost:8000/api/registers/registros/
+Content-Type: application/json
+Content-Length: 112
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id_usuario": 3,
+  "id_evento": 2,
+  "fecha_registro": "2024-09-02T12:00:00",
+  "estado_pago": "Pendiente"
+}
+
+<> 2024-08-30T215142.200.json
+
+###
+
+POST http://localhost:8000/api/registers/registros/1
+Content-Type: application/json
+Content-Length: 112
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id_usuario": 3,
+  "id_evento": 2,
+  "fecha_registro": "2024-09-02T12:00:00",
+  "estado_pago": "Pendiente"
+}
+
+<> 2024-08-30T215133.405.json
+
+###
+
 DELETE http://localhost:8000/api/registers/registros/1
 User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
 Accept-Encoding: br, deflate, gzip, x-gzip
