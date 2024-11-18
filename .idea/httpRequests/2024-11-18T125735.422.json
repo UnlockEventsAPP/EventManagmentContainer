@@ -1,0 +1,48 @@
+{
+  "detail": [
+    {
+      "type": "missing",
+      "loc": [
+        "body",
+        "id_evento"
+      ],
+      "msg": "Field required",
+      "input": {
+        "status": "inactivo"
+      }
+    },
+    {
+      "type": "missing",
+      "loc": [
+        "body",
+        "fecha_registro"
+      ],
+      "msg": "Field required",
+      "input": {
+        "status": "inactivo"
+      }
+    },
+    {
+      "type": "missing",
+      "loc": [
+        "body",
+        "estado_pago"
+      ],
+      "msg": "Field required",
+      "input": {
+        "status": "inactivo"
+      }
+    },
+    {
+      "type": "missing",
+      "loc": [
+        "body",
+        "cantidad_personas"
+      ],
+      "msg": "Field required",
+      "input": {
+        "status": "inactivo"
+      }
+    }
+  ]
+}

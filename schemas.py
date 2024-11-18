@@ -8,6 +8,8 @@ class EventoBase(BaseModel):
     estado: str
     ciudad: str
     fecha_hora: datetime
+    precio: float
+    status: str
 
 class EventoCreate(EventoBase):
     pass
@@ -23,6 +25,7 @@ class RegistroBase(BaseModel):
     id_evento: int
     fecha_registro: datetime
     estado_pago: str
+    cantidad_personas: int
 
 class RegistroCreate(RegistroBase):
     pass

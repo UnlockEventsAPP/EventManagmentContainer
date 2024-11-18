@@ -1,3 +1,242 @@
+PUT http://localhost:8003/events/eventos/10
+Content-Type: application/json
+Content-Length: 208
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "nombre": "Concierto de Rock 2",
+    "aforo_evento": 5000,
+    "estado": "Programado",
+    "ciudad": "Bogotá",
+    "fecha_hora": "2024-12-31T20:00:00",
+    "precio": 1000000,
+    "status": "inactivo"
+}
+
+<> 2024-11-18T130053.200.json
+
+###
+
+PUT http://localhost:8003/events/registros/10
+Content-Type: application/json
+Content-Length: 128
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "id_evento": 10,
+    "fecha_registro": "2024-11-30T15:00:00",
+    "estado_pago": "pendiente",
+    "cantidad_personas": 3
+}
+
+<> 2024-11-18T125937.404.json
+
+###
+
+PUT http://localhost:8003/events/registros/10
+Content-Type: application/json
+Content-Length: 127
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "id_evento": 1,
+    "fecha_registro": "2024-11-30T15:00:00",
+    "estado_pago": "pendiente",
+    "cantidad_personas": 3
+}
+
+<> 2024-11-18T125928.404.json
+
+###
+
+PUT http://localhost:8003/events/registros/10
+Content-Type: application/json
+Content-Length: 28
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "status": "inactivo"
+}
+
+<> 2024-11-18T125735.422.json
+
+###
+
+PUT http://localhost:8003/events/registros/10
+Content-Type: application/json
+Content-Length: 208
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "nombre": "Concierto de Rock 2",
+    "aforo_evento": 5000,
+    "estado": "Programado",
+    "ciudad": "Bogotá",
+    "fecha_hora": "2024-12-31T20:00:00",
+    "precio": 1000000,
+    "status": "inactivo"
+}
+
+<> 2024-11-18T125703.422.json
+
+###
+
+POST http://localhost:8003/events/eventos/
+Content-Type: application/json
+Content-Length: 206
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "nombre": "Concierto de Rock 2",
+    "aforo_evento": 5000,
+    "estado": "Programado",
+    "ciudad": "Bogotá",
+    "fecha_hora": "2024-12-31T20:00:00",
+    "precio": 1000000,
+    "status": "activo"
+}
+
+<> 2024-11-18T125553.200.json
+
+###
+
+POST http://localhost:8003/events/eventos/
+Content-Type: application/json
+Content-Length: 208
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "nombre": "Concierto de Rock 2",
+    "aforo_evento": 5000,
+    "estado": "Programado",
+    "ciudad": "Bogotá",
+    "fecha_hora": "2024-12-31T20:00:00",
+    "precio": 1.000,000,
+    "status": "activo"
+}
+
+<> 2024-11-18T125545.422.json
+
+###
+
+POST http://localhost:8003/events/eventos/
+Content-Type: application/json
+Content-Length: 209
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "nombre": "Concierto de Rock 2",
+    "aforo_evento": 5000,
+    "estado": "Programado",
+    "ciudad": "Bogotá",
+    "fecha_hora": "2024-12-31T20:00:00",
+    "precio": 50.000.000,
+    "status": "activo"
+}
+
+<> 2024-11-18T125518.422.json
+
+###
+
+POST http://localhost:8003/events/eventos/
+Content-Type: application/json
+Content-Length: 208
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "nombre": "Concierto de Rock 2",
+    "aforo_evento": 5000,
+    "estado": "Programado",
+    "ciudad": "Bogotá",
+    "fecha_hora": "2024-12-31T20:00:00",
+    "precio": 50.000000,
+    "status": "activo"
+}
+
+<> 2024-11-18T125511.200.json
+
+###
+
+POST http://localhost:8003/events/eventos/
+Content-Type: application/json
+Content-Length: 209
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "nombre": "Concierto de Rock 2",
+    "aforo_evento": 5000,
+    "estado": "Programado",
+    "ciudad": "Bogotá",
+    "fecha_hora": "2024-12-31T20:00:00",
+    "precio": 50.000.000,
+    "status": "activo"
+}
+
+<> 2024-11-18T125455.422.json
+
+###
+
+POST http://localhost:8003/events/eventos/
+Content-Type: application/json
+Content-Length: 205
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "nombre": "Concierto de Rock 2",
+    "aforo_evento": 5000,
+    "estado": "Programado",
+    "ciudad": "Bogotá",
+    "fecha_hora": "2024-12-31T20:00:00",
+    "precio": 50.000,
+    "status": "activo"
+}
+
+<> 2024-11-18T125419.200.json
+
+###
+
+GET http://localhost:8003/events/registros/
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-11-18T121943.200.json
+
+###
+
+POST http://localhost:8003/events/registros/
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-11-18T121921.422.json
+
+###
+
 GET http://localhost:8004/accommodations/alojamientos/
 User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
 Accept-Encoding: br, deflate, gzip, x-gzip

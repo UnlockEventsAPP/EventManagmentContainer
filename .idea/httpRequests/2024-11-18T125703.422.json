@@ -1,0 +1,72 @@
+{
+  "detail": [
+    {
+      "type": "missing",
+      "loc": [
+        "body",
+        "id_evento"
+      ],
+      "msg": "Field required",
+      "input": {
+        "nombre": "Concierto de Rock 2",
+        "aforo_evento": 5000,
+        "estado": "Programado",
+        "ciudad": "Bogotá",
+        "fecha_hora": "2024-12-31T20:00:00",
+        "precio": 1000000,
+        "status": "inactivo"
+      }
+    },
+    {
+      "type": "missing",
+      "loc": [
+        "body",
+        "fecha_registro"
+      ],
+      "msg": "Field required",
+      "input": {
+        "nombre": "Concierto de Rock 2",
+        "aforo_evento": 5000,
+        "estado": "Programado",
+        "ciudad": "Bogotá",
+        "fecha_hora": "2024-12-31T20:00:00",
+        "precio": 1000000,
+        "status": "inactivo"
+      }
+    },
+    {
+      "type": "missing",
+      "loc": [
+        "body",
+        "estado_pago"
+      ],
+      "msg": "Field required",
+      "input": {
+        "nombre": "Concierto de Rock 2",
+        "aforo_evento": 5000,
+        "estado": "Programado",
+        "ciudad": "Bogotá",
+        "fecha_hora": "2024-12-31T20:00:00",
+        "precio": 1000000,
+        "status": "inactivo"
+      }
+    },
+    {
+      "type": "missing",
+      "loc": [
+        "body",
+        "cantidad_personas"
+      ],
+      "msg": "Field required",
+      "input": {
+        "nombre": "Concierto de Rock 2",
+        "aforo_evento": 5000,
+        "estado": "Programado",
+        "ciudad": "Bogotá",
+        "fecha_hora": "2024-12-31T20:00:00",
+        "precio": 1000000,
+        "status": "inactivo"
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "nombre": "Concierto de Rock 2",
+  "aforo_evento": 5000,
+  "estado": "Programado",
+  "ciudad": "Bogotá",
+  "fecha_hora": "2024-12-31T20:00:00",
+  "precio": 50.0,
+  "status": "activo",
+  "id": 9
+}

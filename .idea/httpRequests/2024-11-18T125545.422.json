@@ -1,0 +1,16 @@
+{
+  "detail": [
+    {
+      "type": "json_invalid",
+      "loc": [
+        "body",
+        178
+      ],
+      "msg": "JSON decode error",
+      "input": {},
+      "ctx": {
+        "error": "Expecting property name enclosed in double quotes"
+      }
+    }
+  ]
+}
