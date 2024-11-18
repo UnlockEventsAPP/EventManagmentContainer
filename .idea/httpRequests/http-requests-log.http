@@ -1,3 +1,25 @@
+POST http://localhost:8003/events/eventos/
+Content-Type: application/json
+Content-Length: 235
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.0.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "nombre": "Concierto de Rock 2",
+    "aforo_evento": 5000,
+    "estado": "Programado",
+    "ciudad": "Bogotá",
+    "fecha_hora": "2024-12-31T20:00:00",
+    "precio": 1000000,
+    "status": "activo",
+    "imagen_url": "1235467"
+}
+
+<> 2024-11-18T150008.200.json
+
+###
+
 PUT http://localhost:8003/events/eventos/10
 Content-Type: application/json
 Content-Length: 208

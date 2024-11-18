@@ -25,5 +25,6 @@ class Evento(Base):
     fecha_hora = Column(DateTime)
     precio = Column(Float, nullable=False)
     status = Column(String(50), nullable=False, default="activo")
+    imagen_url = Column(String(255), nullable=True)
 
     registros = relationship("Registro", back_populates="evento")

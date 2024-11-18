@@ -10,6 +10,7 @@ class EventoBase(BaseModel):
     fecha_hora: datetime
     precio: float
     status: str
+    imagen_url: str
 
 class EventoCreate(EventoBase):
     pass
